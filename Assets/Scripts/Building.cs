@@ -71,6 +71,7 @@ public abstract class Building : MonoBehaviour,
                 m_Inventory.RemoveAt(found);
             }
 
+            //
             m_CurrentAmount -= amount;
 
             return amount;
